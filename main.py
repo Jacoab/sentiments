@@ -1,12 +1,8 @@
-import nltk
-import csv
-import numpy as np
-
-
-#
-# Programed By: Jake Jongewaard
-# Description: routines for loading amazon fine food reviews
-#================================================================
+#################################################################
+#                                                               #
+# Programed By: Jake Jongewaard                                 #
+# Description: routines for loading amazon fine food reviews    #
+#################################################################
 
 
 import nltk
@@ -19,7 +15,7 @@ def read_reviews(filename):
     Reads a csv file of fine food reviews and loads the reviews
     into a numpy array
 
-    :param filename:
+    :param filename: name of the review csv file
     :return: 2-dimensional numpy array that holds each batch of reviews
     """
     review_csv = pd.read_csv(filename)
